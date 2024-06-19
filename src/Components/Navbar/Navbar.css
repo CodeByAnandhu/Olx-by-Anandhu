@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+}
+.navbar{
+    background-color: rgb(239,241,243);
+}
+
+.dropdown-div{
+   
+    border: 3px solid rgb(79, 79, 79);
+    border-radius:15px;
+}
+
+.contryBox{
+    width: 90%;
+}
+
+.searchIcon{
+    font-size: 20px;
+}
+
+.dropdown-div{
+    width: 100%;
+    padding: 2px 10px 2px 10px;
+}
+.olxLogo{
+   width: 3.9%;
+}
+
+
+.searchBtn{
+    position: relative;
+    right:-5px;
+}
+
+form{
+    border: 3px rgb(79, 79, 79) solid;
+    padding: 3px 10px 3px 2px;
+}
+
+
+.Language{
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.Login-Logout{
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: solid underline;
+}
+
+
+
+
+.sell-button {
+    background: linear-gradient(135deg, #FFC700 25%, #18E4E3 25%, #18E4E3 50%, #0A60FF 50%, #0A60FF 75%, #FFC700 75%, #FFC700);
+    border: none;
+    border-radius: 50px;
+    padding:8px; /* Adjusted padding for outer button */
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .sell-button-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    border-radius: 50px;
+    padding: 2px 15px;
+    color: #0C353D;
+    font-size: 14px;
+    font-weight: bold;
+    position: relative;
+  }
+  
+  .sell-button:hover .sell-button-inner {
+    opacity: 0.9;
+  }
+  
+  .sell-button:active .sell-button-inner {
+    opacity: 0.8;
+  }
+  
+  .plus-icon {
+    display: inline-block;
+    margin-right: 8px;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .fa-user{
+    font-size: 15px;
+    cursor: pointer;
+    
+  }
+
+  .dropdownMenu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    width: 170px;
+    position: absolute;
+    top: 110px;
+    padding: 10px;
+    right: 50px;
+    border-radius: 15px;
+    cursor: pointer;
+    gap: 15px;
+    box-shadow: 0px 7px 34px -9px rgba(0, 0, 0, 0.285);
+  }
+ 
+
+  .dropdownMenu .itemss{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 10px;
+    color: #00000099;
+    font-weight: 500;
+  }
+
+  .userName{
+    font-size: 17px;
+    font-weight: 500;
+    color: #5b5353;
+  }

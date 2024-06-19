@@ -1,0 +1,84 @@
+main{
+   
+    padding: 100px;
+    background-color: rgb(236, 236, 236);
+    
+}
+
+section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+
+.image{
+    width: 100%; 
+
+}
+
+.image img{
+    width: 100%;
+    height: 100%;
+    border-radius:  20px;
+    box-shadow: 3px 22px 58px -9px rgba(0, 0, 0, 0.329);
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.priceCard{
+    display: flex;
+    width: 400px;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+    background-color: rgb(249, 249, 249);
+    padding: 20px 70px;
+    border-radius: 10px;
+    box-shadow: 3px 22px 58px -9px rgba(0, 0, 0, 0.043);
+}
+
+.priceCard h1{
+    color: #00373d;
+    font-weight: 600;
+}
+
+.priceCard h4{
+    color: #2151579a;
+    font-weight: 600;
+}
+
+.priceCard span{
+    color: #00373d9a;
+    font-weight: 400;
+}
+
+.sellerDetails{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+    background-color: rgb(249, 249, 249);
+    padding: 20px 70px;
+    border-radius: 10px;
+    box-shadow: 3px 22px 58px -9px rgba(0, 0, 0, 0.071);
+}
+
+.sellerDetails h4{
+    color: #052326;
+    font-weight: 600;
+}
+
+.sellerDetails p{
+    color: #052326ad;
+    font-weight: 400;
+}
+
+.sellerDetails span{
+    color: #052326c3;
+    font-weight: 400;
+}

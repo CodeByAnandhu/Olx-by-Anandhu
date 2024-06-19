@@ -1,0 +1,25 @@
+
+
+
+ul{
+    list-style: none;
+}
+.category{
+    margin-right: 15px;
+    font-weight: 600;
+}
+
+li{
+    
+    font-weight: 400;   
+}
+
+li:hover{
+    color: rgb(5, 172, 201);
+    cursor: pointer;
+}
+
+.nav{
+    
+    box-shadow: 0px 6px 11px 0px rgba(0,0,0,0.1);
+}

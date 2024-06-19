@@ -1,0 +1,95 @@
+
+h1{
+    color: #002F34;
+    text-align: center;
+    font-weight: 500;
+}
+
+.form{
+  border: none;
+}
+
+.input-box {
+    font-family: "poppins", sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+  }
+  
+  input::placeholder{
+    font-size: 15px; 
+    color: #a3a3a3;
+    font-weight: 300;
+  }
+
+  textarea::placeholder{
+    font-size: 15px; 
+    color: #a3a3a3;
+    font-weight: 300;
+  }
+
+  .input-row {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-size: 17px;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: 500;
+    
+  }
+  
+  input[type="text"],
+  textarea,
+  input[type="file"] {
+    padding: 10px;
+    border: 2px solid #9e9ada68;
+    border-radius: 5px;
+    font-size: 18px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  textarea {
+    resize: vertical;
+    min-height: 100px;
+  }
+  
+  .image-preview {
+    margin-top: 10px;
+  }
+  
+  .image-preview img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #image::file-selector-button {
+    background: #a3b9ff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 5px 10px;
+    font-weight: 500;
+    color: #fffbfb;
+  }
+
+  .submitBtn{
+    background-color: #a3b9ff;
+    font-family: "poppins", sans-serif;
+    font-size: 18px;
+    border: none;
+    border-radius: 50px;
+    padding:10px 105px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    font-weight: 500;
+  }
